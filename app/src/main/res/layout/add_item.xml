@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/texttv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="45dp"
+        android:hint="Name"
+        android:padding="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="125dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/clgname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@+id/texttv"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="College Name"
+        android:padding="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/micClg"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/mic"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@+id/clgname"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="Department"
+        android:padding="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/micdept"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/micClg"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/textreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@+id/department"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="15dp"
+        android:hint="Register NO."
+        android:padding="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/micreg"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/micdept"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textreg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_background"
+        android:text="SUBMIT"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>
